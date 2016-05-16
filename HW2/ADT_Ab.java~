@@ -1,0 +1,8 @@
+public interface ADT_Ab {
+
+    public boolean isEmpty(int[][] exarr);
+    public int[][] randomFill(int[][] exarr);
+    public int[][] printing(int[][] exarr);
+    public int[][] deleting(int[][] exarr, int del);
+
+}

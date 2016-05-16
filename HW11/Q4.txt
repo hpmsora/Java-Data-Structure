@@ -1,0 +1,12 @@
+From the paper, the brain networks refers presence of nodes, and several
+other parameters refered by wight between two nodes. There are some examples,
+distance between cneral node or degree or diameter or eccentrity, kappa.
+For alpha, beta, theta brain waves, the MST are found for each of parameters.
+The MST value of those parameters are comapred between the MST patients and
+the normal people. Based on the comparison value, for Theta brainwaves, it is
+obvious to see that the diameter, eccentricity, and leaf fraction are the
+three parameters that have the major difference between the healthy control
+and MS patients. "For Alpha2 brainwaves, diameter, eccentricity, kappa, leaf
+fraction, and th are the major parameters that have the major difference
+between the healthy control and MS patients. For Beta brainwaves, parameter
+Eccentricity is the major difference. "(Source form Internet)

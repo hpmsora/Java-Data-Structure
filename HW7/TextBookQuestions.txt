@@ -1,0 +1,50 @@
+Won Yong Ha
+
+CSCI-C 343
+HW7
+
+7.18
+
+(a) Find the minimum value.
+For returning minimum value, the sorted data does not really benefit. Due to
+only searching one variable and the extreme value, it does not necessary to
+be sorted. The simplest algorithm to find the minimum value would be the
+simple searching algorithm such that store the first variable then compare with
+next variable. If the original stored variable is smaller, then compare with
+next one. Bit if the original stored variable is bigger, then change the
+smaller one to stored variable.
+The time complexity would be just Theta(n).
+
+(b) Find the maximum value.
+For returning maximum value, the sorted data does not really benefit. Due to
+only searching one variable and the extreme value, it does not necessary to
+be sorted. The simplest algorithm to find the maximum value would be the
+simple searching algorithm such that store the first variable then compare with
+next variable. If the original stored variable is bigger, then compare with
+next one. Bit if the original stored variable is smaller, then change the
+smaller one to stored variable.
+The time complexity would be just Theta(n).
+
+(c) Compute the arithmetic mean.
+For returning average value, the sorted data does not really benefit. Due to
+not searching any variable but counting and adding, it does not necessary to be
+sorted. The simple adding all the elements in the array and, same moment, counting
+the number of the elements algorithm would be simplest way to do it.
+The time complexity would be just Theta(n).
+
+(d) Find the median (i.e., the middle value)
+For returning median value, the sorted data would be very benefit and efficient.
+Due to searching not extreme value, the median value would be the center value of
+the array so that it is benefit to be sorted value. The algorithm would be just
+counting. Once it counts the number of the elements in the array, then the algorithm
+find the center value easily to go half of the count.
+The time complexity would be just Theta(n).
+
+(e)Find the mode (i.e., the value that appears the most times).
+For returning mode value, the sorted data would not be very benefit or efficient.
+Due to not searching one variable and extreme value, the sorted data does not
+necessary. The algorithm needed for this question would be the counting each
+elements and distributing each elements whether it duplicate or not. The algorithm
+should look each of the variable, then counting how many times it show up then
+compare which variable is most appear.
+The time complexity would be just Theta(n).

@@ -1,0 +1,7 @@
+From the collection of edges for Dijkstra's algorithm as shortest paths does not
+mecessage from spanning, also definition of a spanning tree is subject for
+tree to graph so it covered with minimum possible number of edges. So all
+the vertices need to be connected somehow. However, Dijkstra’s algorithm
+only form the path between two vertices, and not necessary to connect all the
+vertices. Therefore, we cannot get a spanning tree from using the Dijkstra’s
+algorithm. Also, it’s even more impossible to get a MST.

@@ -1,0 +1,48 @@
+Name:		Won Yong Ha
+User ID:	woha
+Written Date:	Feb 13 2016
+Class:		C343
+
+HW4 - Flood-It
+
+////////////////////////////////////////////////////////
+
+Analysis
+
+In my flood function,
+
+First, looping the each elements in the floodList.
+       In this looping for loop, the end of the for
+       loop is the size of the floodList.
+
+Second, checking three major checking list for each
+	element.
+	- Whether the element is in bound of grid.
+	- Whether the element is same color number as 
+	  received color number
+	After checking these two checking list then
+	- Whether the element is already in the
+	  floodList.
+
+After checking these three things then the element,
+coordinate of the element, add to floodList.
+
+Fixed in Driver function
+Due to the first cennected colors(elements) are not
+recognized initializing the game.
+So I forced to initializing the flooList in driver's
+construction method.
+
+
+Time Complexity
+
+ - First, the flood function used n length of the floodList.
+ - Due to there is 4 sides to the one elements
+   multiplication of 4 is necessary.
+ - Then the flood method is checking each of side whether the
+   elements in floodList, so that the length of the floodList(n)
+   is necesssary.
+
+Therefore the Time Complexity is:
+
+T(n) = 4n^2

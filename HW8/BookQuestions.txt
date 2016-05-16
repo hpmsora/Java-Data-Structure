@@ -1,0 +1,42 @@
+###################################################################
+##
+## Won Yong Ha
+##
+## CSCI-C 343
+## HW8
+##
+## Start: 23 March 2016
+## End: 26 March 2016
+##
+###################################################################
+
+
+
+2.
+ 9.13
+ (a) h(k) = k/n
+     No
+     Because if k >= n^i (i > 1) then the result will be out of the
+     range of the hash table
+
+ (b) h(k) = 1
+     Yes
+     The result of the answer always be same number. But it is not
+     efficient way as hash function
+
+ (c) h(k) = (k + Random(n)) mode n
+     No
+     But to the location of erased element cannot recover, it is
+obvious that random numbers are always located in random location.
+ (d) h(k) = k mod n where n is a prime number
+     If k is larger than n, it is good to be as hash function.
+
+3.
+ 9.14
+ Table:
+ Slot:	 0	1	2	3	4	5	6
+ Number: N/A	N/A	9	3	2	12	N/A
+
+ Slot 0 -> 1/7
+ Slot 1 -> 1/7
+ Slot 6 -> 5/7

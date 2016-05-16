@@ -1,0 +1,91 @@
+for(int i = 0; i < nodeList.size(); i++) {
+
+    for(int j = 0; j < nodeList.size(); j++) {
+
+if (i == j)
+
+    dist[i][j] = 0;
+
+else
+
+    dist[i][j] = infi;
+
+    }
+
+}
+
+/*
+
+for(int i = 0; i < nodeList.size(); i++) {
+
+    for(int j = 0; j < nodeList.size(); j++) {
+
+System.out.println(i + " " + j + ": " + getDistance(i, j));
+
+dist[i][j] = getDistance(i, j);
+
+    }
+
+    }*/
+
+for(int i = 0; i < nodeList.size(); i++) {
+
+    LinkedList<Integer> adj = adjList.get(i);
+
+    for(int j : adj) {
+
+dist[i][j] = getDistance(i, j);
+
+    }
+
+}
+
+    
+
+for(int i = 0; i < nodeList.size(); i++) {
+
+    for(int j = 0; j < nodeList.size(); j++) {
+
+for(int k = 0; k < nodeList.size(); k++) {
+
+    if (dist[i][j] > (dist[i][k] + dist[k][j]))
+
+dist[i][j] = dist[i][k] + dist[j][k];
+
+}
+
+    }
+
+}
+
+
+
+Main:
+
+for(int i = 0; i < 6; i++) {
+
+for(int j = 0; j < 6; j++) {
+
+    System.out.print(table[i][j] + "\t");
+
+}
+
+System.out.print("\n");
+
+    }
+
+
+
+    Scanner scanX = new Scanner(System.in);
+
+    System.out.println("Start Vertex: ");
+
+    int st = scanX.nextInt();
+
+    System.out.println("End Vertex: ");
+
+    int ed = scanX.nextInt();
+
+    System.out.println(table[st-1][ed-1]);
+
+Check the code.

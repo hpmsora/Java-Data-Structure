@@ -1,0 +1,17 @@
+public class Tweet {
+    String content;
+    String usr;
+
+    Tweet (String Content, String User) {
+	content = Content;
+	usr = Userr;
+    }
+
+    String GetUser () {
+	return usr;
+    }
+
+    String GetContent() {
+	return content;
+    }
+}
